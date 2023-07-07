@@ -10,11 +10,11 @@ import ContentWrapper from "../contentWrapper/ContentWrapper";
 import logo from "../../assets/movix-logo.svg";
 
 const Header = () => {
-    const [show, setShow] = useState("top");
+    const [show, setShow] = useState("top"); // navbar
     const [lastScrollY, setLastScrollY] = useState(0);
     const [mobileMenu, setMobileMenu] = useState(false);
     const [query, setQuery] = useState("");
-    const [showSearch, setShowSearch] = useState("");
+    const [showSearch, setShowSearch] = useState(""); // search bar
     const navigate = useNavigate();
     const location = useLocation();
 
@@ -74,7 +74,6 @@ const Header = () => {
                         <VscChromeClose onClick={() => setMobileMenu(false)}/> : 
                         <SlMenu onClick={openMobileMenu} />
                     }
-                    
                 </div>
             </ContentWrapper>
             {showSearch && <div className="searchBar">
