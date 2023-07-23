@@ -4,6 +4,8 @@ A React Based Online Movie Information Website
 Wanna know about a partciular movie? Wanna know about the cast details, imdb rating or watch the trailer! We got you covered! Visit our site Movix right now!!!
 <br />
 
+The site is live at https://movix-nu-coral.vercel.app/ 😍😍😍 VISIT RIGHT NOW!!!
+
 ## Tech Stack 🗃
 React | SCSS
 
