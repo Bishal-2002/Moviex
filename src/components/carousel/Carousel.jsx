@@ -76,9 +76,7 @@ const Carousel = ({ data, loading, endpoint, title }) => {
                                         <Genres data={item.genre_ids.slice(0, 2)}/>
                                     </div>
                                     <div className="textBlock">
-                                        <span className="title">
-                                            {item.title || item.name}
-                                        </span>
+                                        <span className="title">{item.title || item.name}</span>
                                         <span className="date">
                                             {dayjs(item.release_date || item.first_air_date).format("MMM D, YYYY")}
                                         </span>
